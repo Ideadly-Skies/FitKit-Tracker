@@ -61,7 +61,7 @@ export default function StatsPanel({ patients, archived, activeFilter, onFilterP
         onMouseLeave={s.clickable && !isActive ? e => { e.currentTarget.style.background = baseBg; } : undefined}
       >
         <div style={{ fontSize: 22, fontWeight: 800, color: isActive ? "#fff" : (s.accent || TX), lineHeight: 1 }}>{s.n}</div>
-        <div style={{ fontSize: 10, color: isActive ? "rgba(255,255,255,.8)" : TXM, marginTop: 4, textTransform: "uppercase", letterSpacing: .4, fontWeight: s.kind === "rollup" ? 700 : 500 }}>{s.l}</div>
+        <div style={{ fontSize: 12, color: isActive ? "rgba(255,255,255,.9)" : TXM, marginTop: 4, textTransform: "uppercase", letterSpacing: .6, fontWeight: s.kind === "rollup" ? 700 : 600 }}>{s.l}</div>
       </div>
     );
   };

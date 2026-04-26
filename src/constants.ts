@@ -1,0 +1,10 @@
+export const P    = "#4B2D83";
+export const PD   = "#3a2268";
+export const LAV  = "#E8E0F5";
+export const LAV2 = "#F4F0FA";
+export const TX   = "#2D1A50";
+export const TXM  = "#5a4a7a";
+export const TXL  = "#9080b0";
+export const BR   = "#D5C8ED";
+export const BG   = "#F7F4FD";
+export const FONT = `"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`;

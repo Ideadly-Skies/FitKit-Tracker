@@ -23,8 +23,8 @@ export default function Header({ search, setSearch, onOpenArchive, onExportCSV, 
         </div>
         <div style={{ width: 1, background: BR, margin: "10px 0" }} />
         <div style={{ paddingLeft: 14 }}>
-          <span style={{ fontSize: 12, color: TXM, fontWeight: 600, display: "block" }}>FIT Kit Tracker</span>
-          <small style={{ fontSize: 10, color: TXL }}>Faecal Immunochemical Test — Colorectal Cancer Screening</small>
+          <span style={{ fontSize: 15, color: TXM, fontWeight: 700, display: "block" }}>FIT Kit Tracker</span>
+          <small style={{ fontSize: 11, color: TXL }}>Faecal Immunochemical Test — Colorectal Cancer Screening</small>
         </div>
       </div>
       <div style={{ display: "flex", gap: 8, alignItems: "center", padding: "12px 0" }}>
